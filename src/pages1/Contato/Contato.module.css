@@ -1,6 +1,6 @@
 .contContato{
     display: grid;
-    grid-template-rows: 12vh 12vh 60vh 16vh;
+    grid-template-rows: 12vh 12vh 90vh;
     grid-template-columns: 100%;
     background-color: rgb(56, 53, 53);
     color: rgb(0, 0, 0);
@@ -19,4 +19,32 @@
     display: grid;
     height: 80%;
     width: 80%;
+}
+.descricao{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-start: 3;
+    justify-items: center;
+    align-items: center;
+}
+
+.bloco1{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    
+}
+.contIcon{
+    width: 20%;
+    height: 20%;
+    margin: 5px;
+    margin-bottom: 150px;
 }
