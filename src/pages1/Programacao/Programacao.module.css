@@ -2,7 +2,7 @@
     background-color: rgb(56, 53, 53);
     display: grid;
     grid-template-rows: 12vh 12vh 60vh 12vh 30vh 30vh;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .descricao{
     display: grid;
@@ -13,7 +13,7 @@
 }
 .bloco1{
     display: grid;
-    grid-template-columns: 40% 20% 40%;
+    grid-template-columns: 100%;
     grid-row-start: 1;
     grid-column-start: 1;
     width: 90%;
@@ -27,7 +27,7 @@
 
 .bloco2{
     display: grid;
-    grid-template-columns: 40% 20% 40%;
+    grid-template-columns: 100%;
     grid-row-start: 1;
     grid-column-start: 3;
     width: 90%;
@@ -210,4 +210,22 @@
     height: 80%;
     width: 40%;
 }
+
+.sobreP{
+    padding: 4px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+}
+
+.baixars:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  .baixars:visited {
+    color: rgb(11, 11, 11);}
+
+    .baixars:active {
+        color: rgb(0, 0, 0);}
 

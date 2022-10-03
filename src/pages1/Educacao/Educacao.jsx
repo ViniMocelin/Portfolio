@@ -28,13 +28,13 @@ const Educacao = () => {
           <div className={S.card2}>
           <img className={S.image} src={imgEd1} alt="" />
           <h2 className={S.cardText}>
-
+           Foto do dia do Pijama, na primeira escola em que eu trabalhei, com 17 anos. Nessa escola eu era tutor de crianças com necessidades especiais.
           </h2>
           </div>
           <div className={S.card3}>
           <img className={S.image} src={imgEd2} alt="" />
           <h2 className={S.cardText}>
-
+           No meu primeiro estágio da Faculdade. Nós faziamos cursos e palestras para a formação continuada de professores da rede Municipal de Ensino de Curitiba.
           </h2>
           </div>
           </div>
@@ -42,19 +42,19 @@ const Educacao = () => {
         <div className={S.card4}>
           <img className={S.image} src={imgEd3} alt="" />
           <h2 className={S.cardText}>
-
+          Nesse estágio, atendíamos alunos da rede Estadual de Ensino. Era ofertado para esses alunos uma experiência completa de estar na faculdade, com cursos e demais atividades.
           </h2>
         </div>
           <div className={S.card5}>
           <img className={S.image} src={imgEd4} alt="" />
           <h2 className={S.cardText}>
-
+          Esse foi meu último estágio, nele nós íamos nas escolas para ensinar Paleontologia para crianças do Ensino Fundamental I.
           </h2>
           </div>
           <div className={S.card6}>
           <img className={S.image} src={imgEd5} alt="" />
           <h2 className={S.cardText}>
-
+          Ao longo dos meus estágios e matérias da faculdade, gravei diversos vídeos ensinando assuntos de biologia, bem como apresentando meus materiais didáticos!
           </h2>
           </div>
           </div>

@@ -3,7 +3,7 @@
     grid-template-rows: 12vh 12vh 60vh 16vh;
     grid-template-columns: 35% 65%;
     background-color: rgb(56, 53, 53);
-    color: white;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -36,16 +36,20 @@
     height: 80%;
     background-color: rgba(224, 224, 224, 0.852);
     display: flex;
-    justify-content: center;
+    justify-items: center;
     margin-top: 3%;
     margin-right: 5%;
     border-radius: 20px;
     box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.763);
+    align-items: center;
 }
 
 .texto{
-    display: flex;
+    display: grid;
     align-items: center;
+    font-size: 17px;
+    justify-items: center;
+    padding: 10px;
 }
 
 .download{
