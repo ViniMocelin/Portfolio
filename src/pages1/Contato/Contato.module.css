@@ -1,0 +1,22 @@
+.contContato{
+    display: grid;
+    grid-template-rows: 12vh 12vh 60vh 16vh;
+    grid-template-columns: 100%;
+    background-color: rgb(56, 53, 53);
+    color: rgb(0, 0, 0);
+    justify-items: center;
+    
+}
+
+.titCo{
+    display: grid;
+    grid-row-start: 2;
+    justify-items: center;
+    align-items: start;
+}
+
+.cont{
+    display: grid;
+    height: 80%;
+    width: 80%;
+}
