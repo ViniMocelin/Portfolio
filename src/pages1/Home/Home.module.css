@@ -1,0 +1,93 @@
+.container{
+    display: grid;
+    grid-template-rows: 12vh 12vh 60vh 16vh;
+    grid-template-columns: 35% 65%;
+    background-color: rgb(56, 53, 53);
+    color: white;
+    
+}
+
+.welcome{
+    display: grid;
+    grid-row-start: 2;
+}
+
+.sobre1{
+    display: grid;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fotoPerfil{
+    width: 83%;
+    height: 90%;
+    display: grid;
+    grid-column-start: 1;
+    align-items: center;
+}
+
+.sobre2{
+    display: grid;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    width: 90%;
+    height: 80%;
+    background-color: rgba(224, 224, 224, 0.852);
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-right: 5%;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.763);
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+}
+
+.download{
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    display: grid;
+    width:6%;
+    height: 40%;
+    margin-right: 5px;
+}
+
+.baixar{
+    height: 40%;
+    width: 20%;
+    border-radius: 30px;
+    background-color: aliceblue;
+    margin-right: 5px;
+}
+
+.baixar:hover{
+    height: 50%;
+    width: 23%;
+    background-color: rgb(227, 227, 24);
+}
+
+.baixars:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  .baixars:visited {
+    color: rgb(11, 11, 11);}
+
+    .baixars:active {
+        color: rgb(0, 0, 0);}
+

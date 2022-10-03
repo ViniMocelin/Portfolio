@@ -1,0 +1,170 @@
+.contEducacao{
+    background-color: rgb(56, 53, 53);
+    display: grid;
+    grid-template-rows: 12vh 12vh 50vh 55vh 10vh 55vh;
+    color: white;
+    justify-items: center;
+    grid-template-columns: 100%;
+}
+
+.textEd{
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-row-start: 3;
+    background-color: rgba(224, 224, 224, 0.852);
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.763);
+}
+
+.divCards{
+    display: grid;
+    grid-row-start: 4;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    justify-items: center;
+}
+.card {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2);
+    transition: 0.3s;
+    grid-template-rows: 70% 30%;
+    border-radius: 15%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.872);
+  }
+
+  .image{
+       display: grid;
+       grid-row-start: 1;
+       width: 100%;
+       height: 100%;
+       border-top-left-radius:15% ;
+       border-top-right-radius: 15% ;
+       border-bottom: rgba(7, 7, 7, 2);
+  }
+
+  .cardText{
+    display: grid;
+    grid-row-start: 2;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+  }
+  
+  .card2 {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2);
+    transition: 0.3s;
+    grid-template-rows: 70% 30%;
+    border-radius: 15%;
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.872);
+  }
+
+  .card3 {
+    display: grid;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2);
+    transition: 0.3s;
+    grid-template-rows: 70% 30%;
+    border-radius: 15%;
+  }
+  
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.872);
+  }
+
+  .divCards2{
+    display: grid;
+    grid-row-start: 6;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    justify-items: center;
+}
+.card4 {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2);
+    transition: 0.3s;
+    grid-template-rows: 70% 30%;
+    border-radius: 15%;
+  }
+  
+  .card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.872);
+  }
+
+  
+  .card5 {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2);
+    transition: 0.3s;
+    grid-template-rows: 70% 30%;
+    border-radius: 15%;
+  }
+  
+  .card5:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.872);
+  }
+
+  .card6 {
+    display: grid;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.2);
+    transition: 0.3s;
+    grid-template-rows: 70% 30%;
+    border-radius: 15%;
+  }
+  
+  .card6:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.872);
+  }
+
+  .titEd{
+    display: grid;
+    grid-row-start: 2;
+    justify-items: center;
+    align-items: start;
+}
+
+.eded{
+    display: grid;
+    height: 80%;
+    width: 80%;
+}

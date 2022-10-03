@@ -1,0 +1,46 @@
+.contBiologia{
+    background-color: rgb(56, 53, 53);
+    display: grid;
+    grid-template-rows: 12vh 12vh 60vh 70vh;
+    grid-template-columns: 100%;
+    color: white;
+}
+
+.infoBio{
+    display: grid;
+    grid-row-start: 3;
+    grid-template-columns: 100%;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.textoBio{
+    display: grid;
+    width: 90%;
+    height: 80%;
+    background-color: rgba(224, 224, 224, 0.852);
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.763);
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel{
+    width: 100%;
+    display: grid;
+    grid-row-start: 4;
+}
+
+.titBio{
+    display: grid;
+    grid-row-start: 2;
+    justify-items: center;
+}
+
+.biobio{
+    display: grid;
+    height: 80%;
+    width: 40%;
+}

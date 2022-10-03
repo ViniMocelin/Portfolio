@@ -1,0 +1,213 @@
+.contProg{
+    background-color: rgb(56, 53, 53);
+    display: grid;
+    grid-template-rows: 12vh 12vh 60vh 12vh 30vh 30vh;
+    color: white;
+}
+.descricao{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-row-start: 3;
+    justify-items: center;
+    align-items: center;
+}
+.bloco1{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    width: 90%;
+    height: 80%;
+    background-color: rgba(224, 224, 224, 0.852);
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.763);
+    align-items: center;
+    justify-content: center;
+}
+
+.bloco2{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    width: 90%;
+    height: 80%;
+    background-color: rgba(224, 224, 224, 0.852);
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.763);
+    align-items: center;
+    justify-content: center;
+}
+.iconeCentral{
+    width: 90%;
+    grid-column-start: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos{
+    display: grid;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    width:100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-rows: 60% 17%;
+    justify-items: center;
+}
+
+
+.imagemz{
+    display: grid;
+    grid-column-start: 2;
+    width: 100%;
+    height: 80%;
+}
+.imagemz1{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width: 100%;
+    height: 80%;
+}
+.imagemz2{
+    display: grid;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    width: 100%;
+    height: 80%;
+}
+
+.verMais{ 
+    width: 40%;
+    height: 100%;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border-radius: 30px;
+    background-color: aliceblue;
+    align-items: center;
+}
+.verMais:hover{
+    background-color: rgb(227, 227, 24);
+}
+
+.verMais1{ 
+    width: 40%;
+    height: 100%;
+    display: grid;
+    grid-column-start: 3;
+    border-radius: 30px;
+    background-color: aliceblue;
+    align-items: center;
+
+}
+.verMais1:hover{
+    background-color: rgb(227, 227, 24);
+}
+.verMais2{ 
+    width: 40%;
+    height: 100%;
+    display: grid;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    border-radius: 30px;
+    background-color: aliceblue;
+    align-items: center;
+
+}
+.verMais2:hover{
+    background-color: rgb(227, 227, 24);
+}
+
+.logo{
+    width:100%;
+    height:100%;
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-rows: 60% 17%;
+    justify-items: center;
+}
+
+.imagemz3{
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 100%;
+    height: 80%;
+}
+.imagemz4{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width: 100%;
+    height: 80%;
+}
+.imagemz5{
+    display: grid;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    width: 100%;
+    height: 80%;
+}
+
+.verMais3{ 
+    width: 40%;
+    height: 100%;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border-radius: 30px;
+    background-color: aliceblue;
+    align-items: center;
+}
+.verMais3:hover{
+    background-color: rgb(227, 227, 24);
+}
+
+.verMais4{ 
+    width: 40%;
+    height: 100%;
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    border-radius: 30px;
+    background-color: aliceblue;
+    align-items: center;
+
+}
+.verMais4:hover{
+    background-color: rgb(227, 227, 24);
+}
+.verMais5{ 
+    width: 40%;
+    height: 100%;
+    display: grid;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    border-radius: 30px;
+    background-color: aliceblue;
+    align-items: center;
+
+}
+.verMais5:hover{
+    background-color: rgb(227, 227, 24);
+}
+.titPro{
+    display: grid;
+    grid-row-start: 2;
+    justify-items: center;
+}
+
+.propro{
+    display: grid;
+    height: 80%;
+    width: 40%;
+}
+
