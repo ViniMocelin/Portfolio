@@ -15,7 +15,7 @@ const Home = () => {
         <img className={S.fotoPerfil} src={Perfil} alt="" srcset="" />
         </div>
         <div className={S.sobre2}>
-        <h2 className={S.texto}>hahahahahahaha</h2>
+        <h2 className={S.texto}></h2>
     </div>
     <section className={S.download}>
         

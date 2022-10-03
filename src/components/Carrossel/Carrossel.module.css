@@ -1,12 +1,14 @@
 .module{
     width: 1200px;
     height: 200px;
-    margin-left: 18px;
+    justify-items: center;
+    margin-left: 20px;
 }
 .global{
     width: 100%;
     height: 200px;
     padding: 5px;
+    margin: 30px;
 }
 .item{
     width:250px;
@@ -17,6 +19,9 @@
     padding-bottom: 0.5rem ;
     background: transparent;
     border-radius: 15px;
-    box-shadow: 0 0 20px 3px rgb(239, 245, 63);
 }
 
+.divImg{
+    height: 100%;
+    width: 100%;
+}
