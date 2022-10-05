@@ -38,7 +38,7 @@ const Programacao = () => {
       <button className={S.verMais}><a className={S.baixars} href="https://cinedev-12aaygny9-jessicacintra-eng.vercel.app/">Ver o projeto</a></button>
 
       <img className={S.imagemz1} src={Petsearch} alt="" />
-      <button className={S.verMais1}>Sobre o projeto</button>
+      <button className={S.verMais1}> < a className={S.baixars} href="https://www.figma.com/proto/M7OiDgp8kgJmKyYXdQs8NI/Untitled?node-id=2%3A818&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A818">Ver o projeto</a></button>
       <img className={S.imagemz2} src={BetVolley} alt="" />
       <button className={S.verMais2}><a className={S.baixars} href="https://www.figma.com/proto/WWVY0K5MmZQsbKkkJZY625/BetVolley?node-id=1%3A709&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A1387">Ver o projeto</a></button>
 
