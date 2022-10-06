@@ -1,7 +1,7 @@
 .contVid{
     background-color: rgb(56, 53, 53);
     display: grid;
-    grid-template-rows: 12vh 12vh 60vh 60vh;
+    grid-template-rows: 12vh 20vh 60vh 60vh;
     color: rgb(0, 0, 0);
 }
 
@@ -26,4 +26,16 @@
     display:grid;
     grid-template-columns: 5% 40% 10% 40% 5%;
     grid-row-start: 4;
+}
+
+.titVid{
+    display: grid;
+    grid-row-start: 2;
+    justify-items: center;
+}
+
+.vidvid{
+    display: grid;
+    height: 50%;
+    width: 35%;
 }
