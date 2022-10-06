@@ -69,6 +69,7 @@
     width: 100%;
     display: grid;
     grid-row-start: 4;
+    justify-items: center;
 }
 
 .titBio{

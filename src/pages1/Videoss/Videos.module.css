@@ -1,0 +1,29 @@
+.contVid{
+    background-color: rgb(56, 53, 53);
+    display: grid;
+    grid-template-rows: 12vh 12vh 60vh 60vh;
+    color: rgb(0, 0, 0);
+}
+
+.bloco1{
+    display:grid;
+    grid-template-columns: 5% 40% 10% 40% 5%;
+    grid-row-start: 3;
+}
+
+.video1{
+    display:grid;
+    grid-column-start: 2;
+}
+
+.video2{
+    display:grid;
+    grid-column-start: 4;
+}
+
+
+.bloco2{
+    display:grid;
+    grid-template-columns: 5% 40% 10% 40% 5%;
+    grid-row-start: 4;
+}

@@ -5,11 +5,11 @@ import Curriculo from '../../assets/img/curriculo.png'
 
 
 
+
 const Home = () => {
   return (
     <div className={S.container} id='About'>
     <div className={S.welcome}>
-     <p></p>
     </div>
     <div className={S.sobre1}>
         <img className={S.fotoPerfil} src={Perfil} alt="" srcset="" />

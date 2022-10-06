@@ -7,6 +7,7 @@ import Educacao from "./pages1/Educacao/Educacao"
 import Home from './pages1/Home/Home'
 import Pessoal from "./pages1/Pessoal/Pessoal"
 import Programacao from "./pages1/Programacao/Programacao"
+import Videoss from "./pages1/Videoss/Videoss"
 
 
 const App = () => {
@@ -18,7 +19,9 @@ const App = () => {
       <Educacao />
       <Programacao />
       <Pessoal />
+      <Videoss />
       <Contato />
+      
    </main>
   </section>
   )

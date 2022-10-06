@@ -7,6 +7,7 @@ import educacao from '../../assets/img/book.png'
 import programacao from '../../assets/img/prog.png'
 import pessoal from '../../assets/img/personal.png'
 import contato from '../../assets/img/contact.png'
+import yt from '../../assets/img/yt.png'
 
 const Header = () => {
     const [isOpen, setOpen] = useState(false);
@@ -56,6 +57,12 @@ const Header = () => {
             <img className={S.icone} src={pessoal}/>
             <a onClick={handlerClick} href='#Personal'>
                 <li>Pessoal</li>
+                </a>
+                </div>
+                <div className={S.doble}>
+            <img className={S.icone} src={yt}/>
+            <a onClick={handlerClick} href='#Videos'>
+                <li>Vídeos</li>
                 </a>
                 </div>
                 <div className={S.doble}>
