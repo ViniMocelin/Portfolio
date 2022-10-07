@@ -29,7 +29,7 @@ const Programacao = () => {
       </div>
       <img className={S.iconeCentral} src={Dev} alt="" />
       <div className={S.bloco2}>
-        <h4 className={S.sobreP}>Confesso que no começo foi bem sofrido, era muito difícil assimilar as coisas, mas com o tempo eu fui desenvolvendo gosto pela área e hoje busco minha primeira oportunidade de emprego! Ainda estou engatinhando, mas todos os dias tenho aprendido coisas novas e melhorado minhas habilidades!</h4>
+        <h4 className={S.sobreP}>Confesso que no começo foi bem sofrido, era muito difícil assimilar as coisas, mas com o tempo eu fui desenvolvendo gosto pela área e hoje busco minha primeira oportunidade de emprego! Ainda estou engatinhando, pois tenho dificuldade em backend, mas tenha buscado melhorar!</h4>
       </div>
       </div>
     <div className={S.projetos}>
